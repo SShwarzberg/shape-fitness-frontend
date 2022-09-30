@@ -42,11 +42,7 @@ export default function ArticleBody({ articleBody, headerClicked, img }) {
                         .replaceAll('<', '')
                         .replaceAll('\n', '')
                     return (
-                        <ArticleHeading1
-                            key={nanoid()}
-                            headerClicked={headerClicked && headerClicked}
-                            heading={paragraph}
-                        />
+                        <ArticleHeading1 key={nanoid()} heading={paragraph} />
                     )
                 } else if (paragraph.includes('>>h2')) {
                     return (

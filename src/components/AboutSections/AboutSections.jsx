@@ -1,5 +1,5 @@
 import AboutBody from './AboutBody/AboutBody'
-import ArticleSections from '../ReadArticle/ArticleSections/ArticleSections'
+// import ArticleSections from '../ReadArticle/ArticleSections/ArticleSections'
 import AboutHeader from './AboutHeader/AboutHeader'
 import './aboutSections.scss'
 
@@ -7,7 +7,7 @@ export default function AboutSections() {
     return (
         <div className="about-sections">
             <div className="about-main-left">
-                <ArticleSections
+                {/* <ArticleSections
                     articleSections={[
                         'Who We Are',
                         'The Shape Team',
@@ -22,7 +22,7 @@ export default function AboutSections() {
                         'Write with Us',
                         'Write for Us',
                     ]}
-                />
+                /> */}
             </div>
             <div className="about-main-right">
                 <AboutHeader />
